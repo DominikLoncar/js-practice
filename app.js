@@ -18,3 +18,5 @@ sayHi('Dom');
 
 const greetMe = (name) => `Hi ${name}!`;
 console.log(greetMe('Dom'));
+
+let firstTenArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
