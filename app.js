@@ -15,3 +15,6 @@ function greet(whatToSay) {
 
 var sayHi = greet('Hi');
 sayHi('Dom');
+
+const greetMe = (name) => `Hi ${name}!`;
+console.log(greetMe('Dom'));
