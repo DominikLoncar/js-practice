@@ -22,3 +22,10 @@ console.log(greetMe('Dom'));
 let firstTenArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 firstTenArray.map((num) => console.log(num));
+
+let obj = {
+  name: 'Pepec',
+  age: '79421',
+};
+
+console.log(obj);
