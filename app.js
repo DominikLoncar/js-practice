@@ -6,3 +6,12 @@ function plusTwo(num) {
 }
 
 console.log(plusTwo(2));
+
+function greet(whatToSay) {
+  return function (name) {
+    console.log(whatToSay + ' ' + name);
+  };
+}
+
+var sayHi = greet('Hi');
+sayHi('Dom');
