@@ -49,3 +49,15 @@ a();
 console.log(myVar);
 
 // Execution context practice #2.
+
+function b2() {
+  console.log(myVar2);
+}
+
+function a2() {
+  var myVar2 = 2;
+  b2();
+}
+
+var myVar2 = 1;
+a2();
