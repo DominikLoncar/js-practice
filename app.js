@@ -61,3 +61,5 @@ function a2() {
 
 var myVar2 = 1;
 a2();
+
+// Execution context practice #3.
