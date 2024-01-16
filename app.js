@@ -30,6 +30,8 @@ let obj = {
 
 console.log(obj);
 
+// Execution context practice.
+
 function b() {
   var myVar;
   console.log(myVar);
