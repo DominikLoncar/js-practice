@@ -63,3 +63,15 @@ var myVar2 = 1;
 a2();
 
 // Execution context practice #3.
+
+function a3() {
+  function b3() {
+    console.log(myVar3);
+  }
+
+  var myVar3 = 2;
+  b3();
+}
+
+var myVar3 = 1;
+a3();
