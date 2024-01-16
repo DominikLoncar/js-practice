@@ -1,5 +1,5 @@
-const a = 23;
-console.log(Object.getPrototypeOf(a));
+const num23 = 23;
+console.log(Object.getPrototypeOf(num23));
 
 function plusTwo(num) {
   return num + 2;
@@ -29,3 +29,19 @@ let obj = {
 };
 
 console.log(obj);
+
+function b() {
+  var myVar;
+  console.log(myVar);
+}
+
+function a() {
+  var myVar = 2;
+  console.log(myVar);
+  b();
+}
+
+var myVar = 1;
+console.log(myVar);
+a();
+console.log(myVar);
