@@ -97,3 +97,9 @@ for (var j = 0; j < 3; j++) {
 })(function () {
   return 1;
 });
+
+// array.length method is not a count of array's items, but the highest index. even when the item was set to undefined
+
+var a = [];
+a.length; // === 0
+a[10]; // === undefined
