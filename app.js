@@ -16,12 +16,12 @@ function greet(whatToSay) {
 var sayHi = greet('Hi');
 sayHi('Dom');
 
-const greetMe = (name) => `Hi ${name}!`;
+const greetMe = name => `Hi ${name}!`;
 console.log(greetMe('Dom'));
 
 let firstTenArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-firstTenArray.map((num) => console.log(num));
+firstTenArray.map(num => console.log(num));
 
 let obj = {
   name: 'Pepec',
@@ -75,3 +75,17 @@ function a3() {
 
 var myVar3 = 1;
 a3();
+
+var funcs = [];
+// let's create 3 functions
+for (var i = 0; i < 3; i++) {
+  // and store them in funcs
+  funcs[i] = function () {
+    // each should log its value.
+    console.log('My value: ' + i);
+  };
+}
+for (var j = 0; j < 3; j++) {
+  // and now let's run each one to see
+  funcs[j]();
+}
