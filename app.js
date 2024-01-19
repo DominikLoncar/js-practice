@@ -103,3 +103,5 @@ for (var j = 0; j < 3; j++) {
 var a = [];
 a.length; // === 0
 a[10]; // === undefined
+a[10] = undefined;
+a.length; // === 11
