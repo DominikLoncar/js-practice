@@ -107,7 +107,3 @@ a[10] = undefined;
 a.length; // === 11
 a.pop(); // === undefined
 a.length; // === 10
-
-// __proto__ and .prototype example
-
-(new Foo().__proto__ === Foo.prototype(new Foo()).prototype) === undefined;
