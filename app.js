@@ -105,3 +105,4 @@ a.length; // === 0
 a[10]; // === undefined
 a[10] = undefined;
 a.length; // === 11
+a.pop(); // === undefined
