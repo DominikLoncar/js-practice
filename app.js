@@ -113,6 +113,7 @@ function Foo() {
   this.name = 'John Doe';
 }
 
+// Prototype example
 /* Foo has an object property called "prototype"
    The prototype was created automatically when we declared the function Foo. */
 Foo.hasOwnProperty('prototype'); // true
