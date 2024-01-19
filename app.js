@@ -89,3 +89,11 @@ for (var j = 0; j < 3; j++) {
   // and now let's run each one to see
   funcs[j]();
 }
+
+// What does this expression return?
+
+(function f(f) {
+  return typeof f();
+})(function () {
+  return 1;
+});
