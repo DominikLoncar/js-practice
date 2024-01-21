@@ -1,1 +1,1 @@
-var person = {};
+var person = { firstname: 'Dodo', lastname: 'Dada' };
