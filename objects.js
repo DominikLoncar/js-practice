@@ -13,3 +13,5 @@ function greet(person) {
 }
 
 greet(Dodo);
+
+greet({ firstname: 'John', lastname: 'Doe' });
