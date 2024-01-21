@@ -5,9 +5,4 @@ var objectLitaral = {
 
 console.log(JSON.stringify(objectLitaral));
 
-/*
-{
-    "firstName": "John",
-    "isAProgrammer": true,
-}
-*/
+console.log(JSON.parse('{ "firstName": "John", "isAProgrammer": true }'));
