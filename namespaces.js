@@ -5,3 +5,6 @@ console.log(greet);
 
 var english = {};
 var spanish = {};
+
+english.greet = 'Hello!';
+spanish.greet = 'Hola!';
