@@ -4,3 +4,10 @@ var objectLitaral = {
 };
 
 console.log(objectLitaral);
+
+/*
+{
+    "firstName": "John",
+    "isAProgrammer": true,
+}
+*/
