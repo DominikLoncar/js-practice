@@ -3,7 +3,7 @@ var objectLitaral = {
   isAProgrammer: true,
 };
 
-console.log(objectLitaral);
+console.log(JSON.stringify(objectLitaral));
 
 /*
 {
