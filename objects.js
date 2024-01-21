@@ -15,3 +15,7 @@ function greet(person) {
 greet(Dodo);
 
 greet({ firstname: 'John', lastname: 'Doe' });
+
+Dodo.address2 = {
+  street: '333 Second St.',
+};
