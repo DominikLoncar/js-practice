@@ -7,8 +7,8 @@ function greet() {
   console.log('hi');
 }
 
+anonymousGreet();
+
 var anonymousGreet = function () {
   console.log('hi');
 };
-
-anonymousGreet();
