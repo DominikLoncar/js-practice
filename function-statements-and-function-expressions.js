@@ -16,3 +16,5 @@ anonymousGreet();
 function log(a) {
   console.log(a);
 }
+
+log(3);
