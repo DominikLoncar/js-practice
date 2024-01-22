@@ -17,8 +17,6 @@ function log(a) {
   console.log(a);
 }
 
-log({ greeting: 'hi' });
-
 log(function () {
   console.log('hi');
 });
