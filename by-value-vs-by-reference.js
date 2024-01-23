@@ -16,3 +16,5 @@ d = c;
 c.eat = 'eating';
 
 console.log(d);
+
+// by reference (even as parameters)
