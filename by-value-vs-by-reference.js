@@ -19,5 +19,9 @@ console.log(d);
 
 // by reference (even as parameters)
 function changeGreeting(obj) {
-  obj.greeting = 'Hola'; // mutate
+  obj.greet = 'Hola'; // mutate
 }
+
+changeGreeting(d);
+console.log(c);
+console.log(d);
