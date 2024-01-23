@@ -7,3 +7,5 @@ a = 2;
 
 console.log(a);
 console.log(b);
+
+// by reference (all objects (including functions))
