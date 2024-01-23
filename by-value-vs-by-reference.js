@@ -25,3 +25,5 @@ function changeGreeting(obj) {
 changeGreeting(d);
 console.log(c);
 console.log(d);
+
+// equals operator sets up new memory space (new address)
