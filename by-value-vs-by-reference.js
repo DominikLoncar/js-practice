@@ -13,3 +13,5 @@ var c = { greet: 'hi' };
 var d;
 
 d = c;
+
+console.log(d);
