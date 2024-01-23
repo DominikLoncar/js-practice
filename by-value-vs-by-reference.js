@@ -12,7 +12,7 @@ console.log(b);
 var c = { greet: 'hi' };
 var d;
 
-c.eat = 'eating';
 d = c;
+c.eat = 'eating';
 
 console.log(d);
