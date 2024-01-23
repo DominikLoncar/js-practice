@@ -10,3 +10,6 @@ console.log(b);
 
 // by reference (all objects (including functions))
 var c = { greet: 'hi' };
+var d;
+
+d = c;
