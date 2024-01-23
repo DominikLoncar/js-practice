@@ -18,3 +18,6 @@ c.eat = 'eating';
 console.log(d);
 
 // by reference (even as parameters)
+function changeGreeting(obj) {
+  obj.greeting = 'Hola'; // mutate
+}
